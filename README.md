@@ -23,7 +23,7 @@
 public class Priyank {
 
     private String role     = "Java Developer | Gen AI | Forward Deployed Engineer (FDE)";
-    private String learning = "Spring Boot, Spring AI, Kubernetes, Kafka";
+    private String learning = "GEN AI , Spring Boot, Spring AI, Kubernetes, Kafka";
     private String motto    = "Just for learning... until it becomes a full application.";
 
     public String askMeAbout() {
@@ -32,7 +32,7 @@ public class Priyank {
 }
 ```
 
-- 🔭 Currently learning **Spring Boot** and **Spring AI**
+- 🔭 Currently exploring **Spring Boot, Spring AI, Generative AI (GenAI), and Forward Deployed Engineering (FDE)**, with a focus on building scalable, AI-powered backend applications.
 - 🤖 Exploring **Generative AI** and working towards a **Forward Deployed Engineer (FDE)** role
 - 💬 Ask me about **Java** and **Spring Boot**
 - 🌱 Most of my side projects start with *"just for learning"* and end up becoming full applications
