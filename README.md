@@ -32,7 +32,7 @@ public class Priyank {
 }
 ```
 
-- 🔭 Currently exploring **Spring Boot, Spring AI, Generative AI (GenAI), and Forward Deployed Engineering (FDE)**, with a focus on building scalable, AI-powered backend applications.
+- 🔭 Currently exploring **Spring AI, Generative AI (GenAI), and Forward Deployed Engineering (FDE)**, with a focus on building scalable, AI-powered backend applications.
 - 🤖 Exploring **Generative AI** and working towards a **Forward Deployed Engineer (FDE)** role
 - 💬 Ask me about **Java** and **Spring Boot**
 - 🌱 Most of my side projects start with *"just for learning"* and end up becoming full applications
