@@ -142,10 +142,10 @@ public class Priyank {
 ## ☕ My Contributions &lt;/Java&gt;
 
 ```java
-// Every green square is a commit.  🐍
+// Every green square represents a day of coding. 💻
 for (Day day : contributions.lastYear()) {
     if (day.hasCommits()) {
-        snake.eat(day);   // mvn clean install ✅
+        developer.code(day);   // git commit 🚀
     }
 }
 ```
