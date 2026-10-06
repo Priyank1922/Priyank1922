@@ -142,7 +142,7 @@ public class Priyank {
 ## ☕ My Contributions &lt;/Java&gt;
 
 ```java
-// Every green square is a commit. Watch the snake compile them. 🐍
+// Every green square is a commit.  🐍
 for (Day day : contributions.lastYear()) {
     if (day.hasCommits()) {
         snake.eat(day);   // mvn clean install ✅
