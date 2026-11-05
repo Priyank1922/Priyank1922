@@ -128,20 +128,12 @@ public class Priyank {
 
 <div align="center">
 
-  <img height="180"
-       src="https://github-readme-stats.shion.dev/api?username=Priyank1922&show_icons=true&count_private=true&theme=dark&hide_border=false"
-       alt="GitHub Stats"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=Priyank1922&show_icons=true&count_private=true&theme=dark&hide_border=false" alt="GitHub stats"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Priyank1922&layout=compact&langs_count=6&hide=c%2B%2B,c,html,css&theme=dark&hide_border=false" alt="Top languages"/>
 
-  <img height="180"
-       src="https://github-readme-stats.shion.dev/api/top-langs/?username=Priyank1922&layout=compact&langs_count=6&hide=c%2B%2B,c,html,css&theme=dark&hide_border=false"
-       alt="Top Languages"/>
+<br/>
 
-  <br/><br/>
-
-  <img
-       src="https://streak-stats.demolab.com?user=Priyank1922&theme=dark&hide_border=false"
-       alt="GitHub Streak"
-       height="180"/>
+<img src="https://streak-stats.demolab.com/?user=Priyank1922&theme=dark&hide_border=false" alt="GitHub streak"/>
 
 </div>
 
