@@ -105,8 +105,8 @@ public class Priyank {
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Priyank1922&show_icons=true&count_private=true&theme=github_dark&hide_border=false&include_all_commits=true" alt="GitHub overview"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyank1922&layout=donut&langs_count=6&theme=github_dark&hide_border=false" alt="Languages"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=Priyank1922&show_icons=true&count_private=true&theme=dark&hide_border=false" alt="GitHub overview"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Priyank1922&layout=compact&langs_count=6&hide=c%2B%2B,c,html,css&theme=dark&hide_border=false" alt="Languages"/>
 
 </div>
 
@@ -131,7 +131,26 @@ public class Priyank {
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Priyank1922&theme=github-compact&bg_color=0d1117&color=58a6ff&line=38bdf8&point=ffffff&area=true&hide_border=true" alt="Contribution momentum graph" width="100%"/>
+<img src="https://raw.githubusercontent.com/Priyank1922/Priyank1922/main/assets/momentum.svg" alt="Contribution momentum graph" width="100%"/>
+
+</div>
+
+---
+
+## ☕ My Contributions &lt;/Java&gt;
+
+```java
+// Every green square represents a day of coding. 💻
+for (Day day : contributions.lastYear()) {
+    if (day.hasCommits()) {
+        developer.code(day);   // git commit 🚀
+    }
+}
+```
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Priyank1922/Priyank1922/output/github-snake-java.svg" alt="Java-themed contribution snake" width="100%"/>
 
 </div>
 
