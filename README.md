@@ -1,17 +1,17 @@
-<!-- ===================== HEADER BANNER ===================== -->
+<!-- ===================== HEADER BANNER (sky blue) ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,100:7C3AED&height=220&section=header&text=Priyank%20Mehta&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Java%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20Gen%20AI%20%E2%80%A2%20Forward%20Deployed%20Engineer%20(FDE)&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="Header banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:BAE6FD,100:38BDF8&height=220&section=header&text=Priyank%20Mehta&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Java%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20Gen%20AI%20%E2%80%A2%20Forward%20Deployed%20Engineer%20(FDE)&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="Header banner"/>
 
 <a href="https://port-folio-cyan-one.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=Java+%26+Spring+Boot+Developer;Gen+AI+Enthusiast+%7C+Spring+AI;Forward+Deployed+Engineer+(FDE);Building+scalable+backend+systems;Learning+by+building+real+projects" alt="Typing animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Java+%26+Spring+Boot+Developer;Gen+AI+Enthusiast+%7C+Spring+AI;Forward+Deployed+Engineer+(FDE);Building+scalable+backend+systems;Learning+by+building+real+projects" alt="Typing animation"/>
 </a>
 
 <br/><br/>
 
-<a href="https://port-folio-cyan-one.vercel.app/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Priyank%20Portfolio-7C3AED?style=for-the-badge&logoColor=white" alt="Priyank Portfolio"/></a>
-<img src="https://komarev.com/ghpvc/?username=Priyank1922&label=Profile%20Views&color=7C3AED&style=for-the-badge" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/Priyank1922?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=7C3AED" alt="Followers"/>
+<a href="https://port-folio-cyan-one.vercel.app/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Priyank%20Portfolio-4FC3F7?style=for-the-badge&logoColor=white" alt="Priyank Portfolio"/></a>
+<img src="https://komarev.com/ghpvc/?username=Priyank1922&label=Profile%20Views&color=4FC3F7&style=for-the-badge" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/Priyank1922?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=4FC3F7" alt="Followers"/>
 
 </div>
 
@@ -23,7 +23,7 @@
 public class Priyank {
 
     private String role     = "Java Developer | Gen AI | Forward Deployed Engineer (FDE)";
-    private String learning = "GEN AI, Spring Boot, Spring AI, Kubernetes, Kafka";
+    private String learning = "GEN AI , Spring Boot, Spring AI, Kubernetes, Kafka";
     private String motto    = "Just for learning... until it becomes a full application.";
 
     public String askMeAbout() {
@@ -33,9 +33,9 @@ public class Priyank {
 ```
 
 - 🔭 Currently exploring **Spring AI, Generative AI (GenAI), and Forward Deployed Engineering (FDE)**, with a focus on building scalable, AI-powered backend applications.
-- 🤖 Exploring **Generative AI** and working towards a **Forward Deployed Engineer (FDE)** role.
-- 💬 Ask me about **Java** and **Spring Boot**.
-- 🌱 Most of my side projects start with *"just for learning"* and end up becoming full applications.
+- 🤖 Exploring **Generative AI** and working towards a **Forward Deployed Engineer (FDE)** role
+- 💬 Ask me about **Java** and **Spring Boot**
+- 🌱 Most of my side projects start with *"just for learning"* and end up becoming full applications
 - 🌐 Portfolio: [Priyank Portfolio](https://port-folio-cyan-one.vercel.app/)
 - 📫 Reach me at **priyankmehta409@gmail.com**
 
@@ -105,9 +105,8 @@ public class Priyank {
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Priyank1922&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub overview"/>
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyank1922&layout=compact&langs_count=6&hide=c%2B%2B,c,html,css&theme=tokyonight&hide_border=true" alt="Languages"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=Priyank1922&show_icons=true&count_private=true&theme=dark&hide_border=false" alt="GitHub overview"/>
+<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Priyank1922&layout=compact&langs_count=6&hide=c%2B%2B,c,html,css&theme=dark&hide_border=false" alt="Languages"/>
 
 </div>
 
@@ -117,12 +116,11 @@ public class Priyank {
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=Priyank1922&theme=tokyonight&hide_border=true" alt="Current streak, longest streak and total contributions"/>
+<img src="https://streak-stats.demolab.com/?user=Priyank1922&theme=github-dark-blue&hide_border=false" alt="Current streak, longest streak and total contributions"/>
 
 <br/><br/>
 
-<!-- 3D contribution graph generated by profile-3d.yml -->
-
+<!-- 3D contribution graph (generated by the GitHub Action — see profile-3d.yml) -->
 <img src="https://raw.githubusercontent.com/Priyank1922/Priyank1922/main/profile-3d-contrib/profile-night-view.svg" alt="3D contribution graph" width="100%"/>
 
 </div>
@@ -145,16 +143,14 @@ public class Priyank {
 // Every green square represents a day of coding. 💻
 for (Day day : contributions.lastYear()) {
     if (day.hasCommits()) {
-        developer.code(day);
+        developer.code(day);   // git commit 🚀
     }
 }
 ```
 
 <div align="center">
 
-<!-- Java coding animation generated by coding-animation.yml -->
-
-<img src="https://raw.githubusercontent.com/Priyank1922/Priyank1922/output/java-code-animation.svg" alt="Java coding animation" width="100%"/>
+<img src="https://raw.githubusercontent.com/Priyank1922/Priyank1922/output/github-snake-java.svg" alt="Java-themed contribution snake" width="100%"/>
 
 </div>
 
@@ -164,6 +160,6 @@ for (Day day : contributions.lastYear()) {
 
 ### 💬 *"Just for learning"... said every full application ever.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:1E1B4B&height=120&section=footer" width="100%" alt="Footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,100:BAE6FD&height=120&section=footer" width="100%" alt="Footer"/>
 
 </div>
