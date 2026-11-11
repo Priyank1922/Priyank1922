@@ -1,169 +1,80 @@
-<!-- ===================== HEADER BANNER (sky blue) ===================== -->
+## 🧰 Technical Skills
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:BAE6FD,100:38BDF8&height=220&section=header&text=Priyank%20Mehta&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Java%20%E2%80%A2%20Spring%20Boot%20%E2%80%A2%20Gen%20AI%20%E2%80%A2%20Forward%20Deployed%20Engineer%20(FDE)&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="Header banner"/>
+### Programming Languages
+<img src="https://skillicons.dev/icons?i=java,py,js,php,html,css,cpp,postgres&theme=dark" alt="Programming languages"/>
+<img src="https://img.shields.io/badge/SQL-0891B2?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
 
-<a href="https://port-folio-cyan-one.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Java+%26+Spring+Boot+Developer;Gen+AI+Enthusiast+%7C+Spring+AI;Forward+Deployed+Engineer+(FDE);Building+scalable+backend+systems;Learning+by+building+real+projects" alt="Typing animation"/>
-</a>
+### Java and Backend Engineering
+<img src="https://skillicons.dev/icons?i=spring,hibernate,maven,gradle,kafka,rabbitmq,tomcat,apache&theme=dark" alt="Java and backend"/>
+<br/>
+<img src="https://img.shields.io/badge/SPRING%20BOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/>
+<img src="https://img.shields.io/badge/SPRING%20AI-0891B2?style=for-the-badge&logo=spring&logoColor=white" alt="Spring AI"/>
+<img src="https://img.shields.io/badge/SPRING%20SECURITY-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security"/>
+<img src="https://img.shields.io/badge/SPRING%20DATA%20JPA-0E7490?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Data JPA"/>
+<img src="https://img.shields.io/badge/JUNIT-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit"/>
+<img src="https://img.shields.io/badge/SWAGGER-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"/>
+
+### Generative AI and Data Science
+<img src="https://skillicons.dev/icons?i=tensorflow,pandas,numpy,matplotlib,ollama,langchain&theme=dark" alt="Gen AI and data science"/>
+<br/>
+<img src="https://img.shields.io/badge/GENERATIVE%20AI-7C3AED?style=for-the-badge&logo=openai&logoColor=white" alt="Generative AI"/>
+<img src="https://img.shields.io/badge/LLMS-6366F1?style=for-the-badge&logo=huggingface&logoColor=white" alt="LLMs"/>
+<img src="https://img.shields.io/badge/RAG-0891B2?style=for-the-badge&logo=langchain&logoColor=white" alt="RAG"/>
+
+### Databases and Storage
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,firebase,elasticsearch&theme=dark" alt="Databases"/>
+<img src="https://img.shields.io/badge/ORACLE-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"/>
+
+### Cloud, DevOps and Deployment
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,githubactions,jenkins,nginx,linux,vercel&theme=dark" alt="Cloud and DevOps"/>
+<img src="https://img.shields.io/badge/RENDER-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render"/>
+
+### Frontend and UI/UX Development
+<img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap,figma&theme=dark" alt="Frontend"/>
+<img src="https://img.shields.io/badge/RESPONSIVE%20DESIGN-0891B2?style=for-the-badge" alt="Responsive Design"/>
+<img src="https://img.shields.io/badge/UI%20UX%20DESIGN-7C3AED?style=for-the-badge&logo=figma&logoColor=white" alt="UI UX Design"/>
+
+### Developer Tools and Creative Software
+<img src="https://skillicons.dev/icons?i=idea,eclipse,git,github,postman,ps&theme=dark" alt="Developer tools"/>
+<img src="https://img.shields.io/badge/ADOBE-FF0000?style=for-the-badge&logo=adobe&logoColor=white" alt="Adobe"/>
+<img src="https://img.shields.io/badge/CANVA-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva"/>
+
+</div>
+
+---
+
+## 📈 GitHub Performance
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Priyank1922&show_icons=true&count_private=true&theme=github_dark&hide_border=false&include_all_commits=true" alt="GitHub overview"/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyank1922&layout=donut&langs_count=6&theme=github_dark&hide_border=false" alt="Languages"/>
+
+</div>
+
+---
+
+## 🔥 Contributions
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=Priyank1922&theme=github-dark-blue&hide_border=false" alt="Current streak, longest streak and total contributions"/>
 
 <br/><br/>
 
-<a href="https://port-folio-cyan-one.vercel.app/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20Priyank%20Portfolio-4FC3F7?style=for-the-badge&logoColor=white" alt="Priyank Portfolio"/></a>
-<img src="https://komarev.com/ghpvc/?username=Priyank1922&label=Profile%20Views&color=4FC3F7&style=for-the-badge" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/Priyank1922?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=4FC3F7" alt="Followers"/>
+<!-- 3D contribution graph (generated by the GitHub Action — see profile-3d.yml) -->
+<img src="https://raw.githubusercontent.com/Priyank1922/Priyank1922/main/profile-3d-contrib/profile-night-view.svg" alt="3D contribution graph" width="100%"/>
 
 </div>
 
 ---
 
-## 💫 About Me
-
-```java
-public class Priyank {
-
-    private String role     = "Java Developer | Gen AI | Forward Deployed Engineer (FDE)";
-    private String learning = "GEN AI , Spring Boot, Spring AI, Kubernetes, Kafka";
-    private String motto    = "Just for learning... until it becomes a full application.";
-
-    public String askMeAbout() {
-        return "Java, Spring Boot, Backend Development";
-    }
-}
-```
-
-- 🔭 Currently exploring **Spring AI, Generative AI (GenAI), and Forward Deployed Engineering (FDE)**, with a focus on building scalable, AI-powered backend applications.
-- 🤖 Exploring **Generative AI** and working towards a **Forward Deployed Engineer (FDE)** role
-- 💬 Ask me about **Java** and **Spring Boot**
-- 🌱 Most of my side projects start with *"just for learning"* and end up becoming full applications
-- 🌐 Portfolio: [Priyank Portfolio](https://port-folio-cyan-one.vercel.app/)
-- 📫 Reach me at **priyankmehta409@gmail.com**
-
----
-
-## 🌐 Let's Connect
+## 🚀 Momentum
 
 <div align="center">
 
-<a href="https://port-folio-cyan-one.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-<a href="https://linkedin.com/in/priyankmehta19"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:priyankmehta409@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/Priyank1922"><img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Priyank1922&theme=github-compact&bg_color=0d1117&color=58a6ff&line=38bdf8&point=ffffff&area=true&hide_border=true" alt="Contribution momentum graph" width="100%"/>
 
 </div>
-
----
-
-## 💻 Tech Stack
-
-### ☕ Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### 🍃 Java & Backend
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring AI](https://img.shields.io/badge/Spring%20AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-![JUnit](https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Tomcat](https://img.shields.io/badge/Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
-![Apache](https://img.shields.io/badge/Apache-D42029?style=for-the-badge&logo=apache&logoColor=white)
-
-### 🤖 Gen AI & Data
-![Generative AI](https://img.shields.io/badge/Generative%20AI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LLMs](https://img.shields.io/badge/LLMs-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![RAG](https://img.shields.io/badge/RAG-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white)
-
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-### 🛠️ Tools & Design
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-![Adobe](https://img.shields.io/badge/Adobe-FF0000?style=for-the-badge&logo=adobe&logoColor=white)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.shion.dev/api?username=Priyank1922&show_icons=true&count_private=true&theme=dark&hide_border=false" alt="GitHub stats"/>
-<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Priyank1922&layout=compact&langs_count=6&hide=c%2B%2B,c,html,css&theme=dark&hide_border=false" alt="Top languages"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=Priyank1922&theme=dark&hide_border=false" alt="GitHub streak"/>
-
-</div>
-
----
-
-## ☕ My Contributions &lt;/Java&gt;
-
-```java
-// Every green square represents a day of coding. 💻
-for (Day day : contributions.lastYear()) {
-    if (day.hasCommits()) {
-        developer.code(day);   // git commit 🚀
-    }
-}
-```
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Priyank1922/Priyank1922/output/github-snake-java.svg" alt="Java-themed contribution snake" width="100%"/>
-
-</div>
-
----
-
-<div align="center">
-
-### 💬 *"Just for learning"... said every full application ever.*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,100:BAE6FD&height=120&section=footer" width="100%" alt="Footer"/>
-
-</div>
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
