@@ -1,11 +1,14 @@
-name: Generate Snake Animation
+name: Generate Java Coding Animation
 
 on:
   schedule:
     - cron: "0 */12 * * *"
+
   workflow_dispatch:
+
   push:
-    branches: [main]
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -13,15 +16,218 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake-java.svg?palette=github-dark&color_snake=38bdf8
 
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v5
+
+      - name: Create Java Coding Animation
+        run: |
+
+          mkdir -p dist
+
+          cat > dist/java-code-animation.svg <<'SVG'
+          <svg xmlns="http://www.w3.org/2000/svg"
+               width="1000"
+               height="330"
+               viewBox="0 0 1000 330">
+
+            <defs>
+              <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#111827"/>
+                <stop offset="100%" stop-color="#1e1b4b"/>
+              </linearGradient>
+
+              <linearGradient id="accent">
+                <stop offset="0%" stop-color="#7c3aed"/>
+                <stop offset="100%" stop-color="#10b981"/>
+              </linearGradient>
+            </defs>
+
+            <rect width="1000" height="330" rx="16" fill="url(#bg)"/>
+
+            <rect x="1" y="1" width="998" height="328"
+                  rx="16" fill="none"
+                  stroke="#6d28d9" stroke-opacity=".55"/>
+
+            <!-- IDE Header -->
+
+            <rect width="1000" height="45" rx="16" fill="#18181b"/>
+
+            <circle cx="25" cy="22" r="6" fill="#ef4444"/>
+            <circle cx="45" cy="22" r="6" fill="#eab308"/>
+            <circle cx="65" cy="22" r="6" fill="#22c55e"/>
+
+            <text x="90" y="28"
+                  fill="#e5e7eb"
+                  font-family="monospace"
+                  font-size="14">
+              Priyank.java — Spring Boot Project
+            </text>
+
+            <text x="950" y="28"
+                  fill="#a78bfa"
+                  text-anchor="end"
+                  font-family="monospace"
+                  font-size="12">
+              JAVA
+            </text>
+
+            <!-- Code Background -->
+
+            <rect x="0" y="45" width="58" height="285"
+                  fill="#0f172a" opacity=".7"/>
+
+            <!-- Line Numbers -->
+
+            <g font-family="monospace"
+               font-size="13"
+               fill="#64748b"
+               text-anchor="end">
+
+              <text x="43" y="85">01</text>
+              <text x="43" y="113">02</text>
+              <text x="43" y="141">03</text>
+              <text x="43" y="169">04</text>
+              <text x="43" y="197">05</text>
+              <text x="43" y="225">06</text>
+              <text x="43" y="253">07</text>
+              <text x="43" y="281">08</text>
+            </g>
+
+            <!-- Animated Java Code -->
+
+            <g font-family="monospace"
+               font-size="16"
+               font-weight="600">
+
+              <g opacity="0">
+                <animate attributeName="opacity"
+                         from="0" to="1"
+                         begin="0s" dur=".5s"
+                         fill="freeze"/>
+
+                <text x="85" y="85" fill="#c084fc">
+                  @SpringBootApplication
+                </text>
+              </g>
+
+              <g opacity="0">
+                <animate attributeName="opacity"
+                         from="0" to="1"
+                         begin=".7s" dur=".5s"
+                         fill="freeze"/>
+
+                <text x="85" y="113" fill="#c084fc">
+                  public class PriyankApplication {
+                </text>
+              </g>
+
+              <g opacity="0">
+                <animate attributeName="opacity"
+                         from="0" to="1"
+                         begin="1.4s" dur=".5s"
+                         fill="freeze"/>
+
+                <text x="115" y="141" fill="#60a5fa">
+                  public static void main(String[] args) {
+                </text>
+              </g>
+
+              <g opacity="0">
+                <animate attributeName="opacity"
+                         from="0" to="1"
+                         begin="2.1s" dur=".5s"
+                         fill="freeze"/>
+
+                <text x="145" y="169" fill="#34d399">
+                  SpringApplication.run(
+                </text>
+              </g>
+
+              <g opacity="0">
+                <animate attributeName="opacity"
+                         from="0" to="1"
+                         begin="2.8s" dur=".5s"
+                         fill="freeze"/>
+
+                <text x="175" y="197" fill="#fbbf24">
+                  PriyankApplication.class, args);
+                </text>
+              </g>
+
+              <g opacity="0">
+                <animate attributeName="opacity"
+                         from="0" to="1"
+                         begin="3.5s" dur=".5s"
+                         fill="freeze"/>
+
+                <text x="145" y="225" fill="#60a5fa">
+                  }
+                </text>
+              </g>
+
+              <g opacity="0">
+                <animate attributeName="opacity"
+                         from="0" to="1"
+                         begin="4.2s" dur=".5s"
+                         fill="freeze"/>
+
+                <text x="115" y="253" fill="#60a5fa">
+                  }
+                </text>
+              </g>
+
+              <g opacity="0">
+                <animate attributeName="opacity"
+                         from="0" to="1"
+                         begin="4.9s" dur=".5s"
+                         fill="freeze"/>
+
+                <text x="85" y="281" fill="#a78bfa">
+                  // Building scalable backend applications...
+                </text>
+              </g>
+
+            </g>
+
+            <!-- Blinking Cursor -->
+
+            <rect x="85" y="294"
+                  width="9" height="17"
+                  fill="#a78bfa">
+
+              <animate attributeName="opacity"
+                       values="1;0;1"
+                       dur="1s"
+                       repeatCount="indefinite"/>
+            </rect>
+
+            <!-- Bottom Status Bar -->
+
+            <rect x="0" y="313" width="1000" height="17"
+                  fill="#312e81"/>
+
+            <text x="18" y="325"
+                  fill="#a7f3d0"
+                  font-family="monospace"
+                  font-size="10">
+              ● BUILD SUCCESSFUL
+            </text>
+
+            <text x="980" y="325"
+                  fill="#c4b5fd"
+                  font-family="monospace"
+                  font-size="10"
+                  text-anchor="end">
+              JAVA 21 | SPRING BOOT | BACKEND
+            </text>
+
+          </svg>
+          SVG
+
+      - name: Publish Animation
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
