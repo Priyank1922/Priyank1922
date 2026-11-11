@@ -150,7 +150,7 @@ for (Day day : contributions.lastYear()) {
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Priyank1922/Priyank1922/output/github-snake-java.svg" alt="Java-themed contribution snake" width="100%"/>
+<img src="https://raw.githubusercontent.com/Priyank1922/Priyank1922/output/java-code-animation.svg" alt="Java-themed contribution animation" width="100%"/>
 
 </div>
 
