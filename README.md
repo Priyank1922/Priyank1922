@@ -154,6 +154,8 @@ for (Day day : contributions.lastYear()) {
      alt="Java Developer Contribution Graph"
      width="100%"/>
 
+     
+
 </div>
 
 ---
