@@ -21,212 +21,158 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v5
 
-      - name: Create Java Coding Animation
+      - name: Generate Java Contribution Graph
         run: |
-
           mkdir -p dist
 
-          cat > dist/java-code-animation.svg <<'SVG'
-          <svg xmlns="http://www.w3.org/2000/svg"
-               width="1000"
-               height="330"
-               viewBox="0 0 1000 330">
+          python - <<'PY'
+          import requests
+          import datetime
+          import html
 
-            <defs>
-              <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stop-color="#111827"/>
-                <stop offset="100%" stop-color="#1e1b4b"/>
-              </linearGradient>
+          username = "Priyank1922"
 
-              <linearGradient id="accent">
-                <stop offset="0%" stop-color="#7c3aed"/>
-                <stop offset="100%" stop-color="#10b981"/>
-              </linearGradient>
-            </defs>
+          url = f"https://github-contributions-api.jogruber.de/v4/{username}?y=last"
+          response = requests.get(url, timeout=30)
+          response.raise_for_status()
 
-            <rect width="1000" height="330" rx="16" fill="url(#bg)"/>
+          contributions = response.json()["contributions"]
 
-            <rect x="1" y="1" width="998" height="328"
-                  rx="16" fill="none"
-                  stroke="#6d28d9" stroke-opacity=".55"/>
+          data = {
+              item["date"]: item["count"]
+              for item in contributions
+          }
 
-            <!-- IDE Header -->
+          today = datetime.date.today()
+          start = today - datetime.timedelta(days=364)
+          start -= datetime.timedelta(days=(start.weekday() + 1) % 7)
 
-            <rect width="1000" height="45" rx="16" fill="#18181b"/>
+          colors = [
+              "#161b22",
+              "#0e4429",
+              "#006d32",
+              "#26a641",
+              "#39d353"
+          ]
 
-            <circle cx="25" cy="22" r="6" fill="#ef4444"/>
-            <circle cx="45" cy="22" r="6" fill="#eab308"/>
-            <circle cx="65" cy="22" r="6" fill="#22c55e"/>
+          cells = []
+          months = []
+          week = 0
+          previous_month = -1
 
-            <text x="90" y="28"
-                  fill="#e5e7eb"
-                  font-family="monospace"
-                  font-size="14">
-              Priyank.java — Spring Boot Project
-            </text>
+          current = start
 
-            <text x="950" y="28"
-                  fill="#a78bfa"
-                  text-anchor="end"
-                  font-family="monospace"
-                  font-size="12">
-              JAVA
-            </text>
+          while current <= today:
+              count = data.get(current.isoformat(), 0)
 
-            <!-- Code Background -->
+              level = 0 if count == 0 else (
+                  1 if count <= 2 else
+                  2 if count <= 5 else
+                  3 if count <= 9 else 4
+              )
 
-            <rect x="0" y="45" width="58" height="285"
-                  fill="#0f172a" opacity=".7"/>
+              x = 105 + week * 15
+              y = 112 + current.weekday() * 15
 
-            <!-- Line Numbers -->
+              cells.append(
+                  f'<rect x="{x}" y="{y}" width="11" height="11" '
+                  f'rx="2" fill="{colors[level]}">'
+                  f'<title>{current}: {count} contributions</title></rect>'
+              )
 
-            <g font-family="monospace"
-               font-size="13"
-               fill="#64748b"
-               text-anchor="end">
+              if current.month != previous_month and current.weekday() == 0:
+                  months.append(
+                      f'<text x="{x}" y="99" fill="#a78bfa" '
+                      f'font-size="11" font-family="monospace">'
+                      f'{current.strftime("%b")}</text>'
+                  )
+                  previous_month = current.month
 
-              <text x="43" y="85">01</text>
-              <text x="43" y="113">02</text>
-              <text x="43" y="141">03</text>
-              <text x="43" y="169">04</text>
-              <text x="43" y="197">05</text>
-              <text x="43" y="225">06</text>
-              <text x="43" y="253">07</text>
-              <text x="43" y="281">08</text>
-            </g>
+              if current.weekday() == 6:
+                  week += 1
 
-            <!-- Animated Java Code -->
+              current += datetime.timedelta(days=1)
 
-            <g font-family="monospace"
-               font-size="16"
-               font-weight="600">
+          total = sum(data.values())
 
-              <g opacity="0">
-                <animate attributeName="opacity"
-                         from="0" to="1"
-                         begin="0s" dur=".5s"
-                         fill="freeze"/>
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
+          width="1000" height="285" viewBox="0 0 1000 285">
 
-                <text x="85" y="85" fill="#c084fc">
-                  @SpringBootApplication
-                </text>
-              </g>
+          <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#111827"/>
+              <stop offset="100%" stop-color="#1e1b4b"/>
+            </linearGradient>
+          </defs>
 
-              <g opacity="0">
-                <animate attributeName="opacity"
-                         from="0" to="1"
-                         begin=".7s" dur=".5s"
-                         fill="freeze"/>
+          <rect width="1000" height="285" rx="16" fill="url(#bg)"/>
+          <rect x="1" y="1" width="998" height="283" rx="16"
+                fill="none" stroke="#7c3aed" stroke-opacity=".6"/>
 
-                <text x="85" y="113" fill="#c084fc">
-                  public class PriyankApplication {
-                </text>
-              </g>
+          <rect width="1000" height="42" rx="16" fill="#18181b"/>
 
-              <g opacity="0">
-                <animate attributeName="opacity"
-                         from="0" to="1"
-                         begin="1.4s" dur=".5s"
-                         fill="freeze"/>
+          <circle cx="24" cy="21" r="6" fill="#ef4444"/>
+          <circle cx="44" cy="21" r="6" fill="#eab308"/>
+          <circle cx="64" cy="21" r="6" fill="#22c55e"/>
 
-                <text x="115" y="141" fill="#60a5fa">
-                  public static void main(String[] args) {
-                </text>
-              </g>
+          <text x="90" y="26" fill="#e5e7eb"
+                font-family="monospace" font-size="14">
+            Priyank.java — GitHub Contribution History
+          </text>
 
-              <g opacity="0">
-                <animate attributeName="opacity"
-                         from="0" to="1"
-                         begin="2.1s" dur=".5s"
-                         fill="freeze"/>
+          <text x="970" y="26" fill="#a78bfa"
+                font-family="monospace" font-size="12"
+                text-anchor="end">JAVA DEVELOPER</text>
 
-                <text x="145" y="169" fill="#34d399">
-                  SpringApplication.run(
-                </text>
-              </g>
+          <text x="35" y="70" fill="#c084fc"
+                font-family="monospace" font-size="17"
+                font-weight="bold">
+            &lt;developer name="Priyank Mehta"&gt;
+          </text>
 
-              <g opacity="0">
-                <animate attributeName="opacity"
-                         from="0" to="1"
-                         begin="2.8s" dur=".5s"
-                         fill="freeze"/>
+          <text x="35" y="91" fill="#94a3b8"
+                font-family="monospace" font-size="12">
+            // A year of building, committing and improving.
+          </text>
 
-                <text x="175" y="197" fill="#fbbf24">
-                  PriyankApplication.class, args);
-                </text>
-              </g>
+          {''.join(months)}
 
-              <g opacity="0">
-                <animate attributeName="opacity"
-                         from="0" to="1"
-                         begin="3.5s" dur=".5s"
-                         fill="freeze"/>
+          <g>
+            {''.join(cells)}
+          </g>
 
-                <text x="145" y="225" fill="#60a5fa">
-                  }
-                </text>
-              </g>
+          <text x="35" y="239" fill="#34d399"
+                font-family="monospace" font-size="13">
+            Total Contributions: {total}
+          </text>
 
-              <g opacity="0">
-                <animate attributeName="opacity"
-                         from="0" to="1"
-                         begin="4.2s" dur=".5s"
-                         fill="freeze"/>
+          <text x="35" y="260" fill="#a78bfa"
+                font-family="monospace" font-size="12">
+            Java | Spring Boot | Backend Engineering | Gen AI
+          </text>
 
-                <text x="115" y="253" fill="#60a5fa">
-                  }
-                </text>
-              </g>
+          <g font-family="monospace" font-size="10" fill="#94a3b8">
+            <text x="770" y="239">Less</text>
+            {''.join(
+                f'<rect x="{810 + i*16}" y="228" width="11" height="11" '
+                f'rx="2" fill="{colors[i]}"/>'
+                for i in range(5)
+            )}
+            <text x="900" y="239">More</text>
+          </g>
 
-              <g opacity="0">
-                <animate attributeName="opacity"
-                         from="0" to="1"
-                         begin="4.9s" dur=".5s"
-                         fill="freeze"/>
+          <rect x="0" y="273" width="1000" height="12"
+                fill="#312e81"/>
 
-                <text x="85" y="281" fill="#a78bfa">
-                  // Building scalable backend applications...
-                </text>
-              </g>
+          </svg>'''
 
-            </g>
+          with open("dist/java-code-animation.svg", "w") as file:
+              file.write(svg)
 
-            <!-- Blinking Cursor -->
+          print("Java contribution graph generated successfully.")
+          PY
 
-            <rect x="85" y="294"
-                  width="9" height="17"
-                  fill="#a78bfa">
-
-              <animate attributeName="opacity"
-                       values="1;0;1"
-                       dur="1s"
-                       repeatCount="indefinite"/>
-            </rect>
-
-            <!-- Bottom Status Bar -->
-
-            <rect x="0" y="313" width="1000" height="17"
-                  fill="#312e81"/>
-
-            <text x="18" y="325"
-                  fill="#a7f3d0"
-                  font-family="monospace"
-                  font-size="10">
-              ● BUILD SUCCESSFUL
-            </text>
-
-            <text x="980" y="325"
-                  fill="#c4b5fd"
-                  font-family="monospace"
-                  font-size="10"
-                  text-anchor="end">
-              JAVA 21 | SPRING BOOT | BACKEND
-            </text>
-
-          </svg>
-          SVG
-
-      - name: Publish Animation
+      - name: Publish Graph
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
